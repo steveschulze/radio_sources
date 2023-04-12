@@ -2,12 +2,12 @@
 
 Tool queries FIRST (1.4 GHz), NVSS (1.4 GHz), VLASS (3 GHz) and ASKAP RACS (887.5 GHz) source catalogues and visualises the results.
 
-*Requires
+**Requires**
 
 ```
 astropy, astroquery, ligo.skymap and plotsettings
 ```
 
-*How to use it?
+**How to use it?**
 
-Specify object coordinates in Cell[3] and search radius in Cell[4]
+Specify object coordinates in `Cell[3]`, search radius in `Cell[4]` and run the notebook.
