@@ -10,4 +10,16 @@ astropy, astroquery, ligo.skymap and plotsettings
 
 **How to use it?**
 
-Specify object coordinates in `Cell[3]`, search radius in `Cell[4]` and run the notebook.
+Modify the object properties in `targets.ascii`, search radius in `Cell[4]` and run the notebook.
+
+# Check visibility?
+
+**Requires**
+
+```
+astroplan and plotsettings
+```
+
+**How to use it?**
+
+Modify the object properties in `targets.ascii` and specify the date in `Cell[2]`. Run the notebook.
